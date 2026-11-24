@@ -1,0 +1,15 @@
+{
+  "dataset": "Maps (pix2pix), http://efrosgans.eecs.berkeley.edu/pix2pix/datasets/maps.tar.gz",
+  "translation_direction": "AtoB (moiti\u00e9 gauche = a\u00e9rienne, moiti\u00e9 droite = carte)",
+  "seed": 42,
+  "val_ratio": 0.1,
+  "phash_size": 16,
+  "dup_threshold_hamming": 10,
+  "n_near_duplicates": 0,
+  "min_hamming_distance": 52,
+  "counts": {
+    "train": 986,
+    "val": 110,
+    "test": 1098
+  }
+}
